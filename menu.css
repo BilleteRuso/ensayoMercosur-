@@ -1,0 +1,140 @@
+body {
+    background: rgb(5, 25, 35);
+    color: rgb(163, 202, 205);
+    padding: 0px;
+    margin: 0px;
+    font-feature-settings: "liga" 0;
+    line-height: 1.7;
+    font-family: "IBM Plex Mono", monospace;
+    font-weight: 400;
+}
+
+.navegador__lateral-responsive {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(5, 25, 35);
+}
+
+.logo-responsive {
+    min-height: 60px;
+    display: flex;
+}
+
+.logo__energia-responsive{
+    height: 25px;
+    padding: 15px 20px 20px 25px;
+    font-family: 'Hanalei Fill', cursive;
+    font-size: 20px;
+}
+
+.logo__energia-responsive a{
+    text-decoration: none;
+    color: rgb(163, 202, 205);
+}
+
+.logo__energia-responsive a:hover {
+    color: rgb(246, 73, 167);
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.cancelar-responsive {
+    flex-grow: 1;
+    display: flex;
+    justify-content: flex-end;
+    align-self: center;
+    margin-left: auto;
+    margin-right: 40px;
+    font-weight: 800;
+}
+
+.cancelar-responsive a{
+    text-decoration: none;
+    color: rgb(246, 73, 167);
+}
+
+.lista-responsive {
+    flex-grow: 1;
+    padding-top: 20px;
+    border-color: rgb(163, 202, 205);
+    border-width: 1px;
+    border-style: dashed;
+    border-bottom: none;
+    border-left: none;
+    border-right: none;
+    overflow: auto;
+}
+
+.lista-responsive a {
+    display: block;
+    font-size: large;
+    font-weight: 800;
+    text-decoration: none;
+    margin-left: 20px;
+    color: rgb(246, 73, 167);
+    line-height: 1.7;
+    margin: 0px auto;
+    text-align: center;
+}
+
+.t:hover {
+    color: #e78bbb;
+    transition: 0.2s;
+    text-decoration: underline;
+}
+
+.redes-responsive {
+    height: 60px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+.box-responsive{
+    height: 60px;
+    flex: 1;
+    border-style: dashed;
+    border-bottom: none;
+    border-left: none;
+    border-width: 1px;
+    border-color: rgb(163, 202, 205);
+    font-size: x-large;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.box-responsive:hover{
+    color: rgb(246, 73, 167);
+    cursor: pointer;
+    transition: 0.2s;
+    background-color: rgb(3, 20, 29);
+}
+
+.o{
+    color: rgb(89, 223, 127);
+}
+
+.idioma-responsive {
+    padding: 9px 20px;
+    background-color: rgb(5, 25, 35);
+    border-style: dashed;
+    border-width: 1px;
+    border-color: rgb(163, 202, 205);
+    color: rgb(163, 202, 205);
+    margin-left: 10px;
+    max-width: 100px;
+    text-align: center;
+    margin: 20px auto;
+}
+
+.idioma-responsive:hover {
+    color: rgb(246, 73, 167);
+    background-color: rgb(3, 20, 29);
+    transition: 0.2s;
+    cursor: pointer;  
+    border-color: rgb(246, 73, 167);
+    border-style: solid; 
+}
